@@ -14,7 +14,7 @@ png(filename = "plot2.png",
     units = "px")
 
 plot(yrlyBaltimoreEmissions, type = "l", xlab = "Year",
-     main = "Total Emissions in Baltimore, Maryland (1999 to 2008)",
+     main = "Total Emissions in Baltimore, MD (1999 to 2008)",
      ylab = expression("PM"[2.5]*" Emissions"))
 
 dev.off()

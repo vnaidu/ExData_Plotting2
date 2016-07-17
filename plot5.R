@@ -18,7 +18,7 @@ motorEmissions <-
 
 ggplot(motorEmissions, aes(year, total)) +
   geom_line() +
-  ggtitle("Total Emissions from Motor Vehicle Sources\n Maryland, MD (1999-2008)") +
+  ggtitle("Total Emissions from Motor Vehicle Sources\n Baltimore, MD (1999-2008)") +
   xlab("Year") + ylab(expression("PM"[2.5]*"Emissions"))
 
 ggsave("plot5.png", width = 5, height = 5)
