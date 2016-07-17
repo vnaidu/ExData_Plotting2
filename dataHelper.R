@@ -3,10 +3,6 @@
 # dataset exists. If the dataset dosen't exist, check if the source Zip
 # archive file exists (download if nonexistent) and unzip it.
 
-library(readr)
-library(dplyr)
-library(magrittr)
-library(lubridate)
 
 fPaths <- list(summarySCC_PM25='Data/summarySCC_PM25.rds',
                Source_Classification_Code='Data/Source_Classification_Code.rds',
