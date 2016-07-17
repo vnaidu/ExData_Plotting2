@@ -17,7 +17,7 @@ coalEmissions <-
 
 ggplot(coalEmissions, aes(year, total)) +
   geom_line() +
-  ggtitle("Total Emissions From Coal Combustion (1999 to 2008)") +
+  ggtitle("Total Emissions from Coal Combustion \n United States (1999-2008)") +
   xlab("Year") + ylab(expression("PM"[2.5]*"Emissions"))
 
 ggsave("plot4.png", width = 5, height = 5)
